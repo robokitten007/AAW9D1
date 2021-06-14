@@ -25,7 +25,7 @@ eval("console.log(\"Webpack is working!\");\n\n\nconst MovingObject = __webpack_
   \******************************/
 /***/ ((module) => {
 
-eval("\nfunction MovingObject({pos, vel, radius, color}){\n   this[pos] = pos;\n   this[vel] = vel;\n   this[radius] = radius;\n   this[color] = color;\n}\n\n\nconst mo = new MovingObject({\n  pos: [30, 30],\n  vel: [10, 10],\n  radius: 5,\n  color: \"#00FF00\"\n});\n\nmodule.exports = MovingObject;\n\n\n\n//# sourceURL=webpack://w9d1/./src/moving_object.js?");
+eval("\nfunction MovingObject({pos, vel, radius, color}){\n   this.pos = pos;\n   this.vel = vel;\n   this.radius = radius;\n   this.color = color;\n}\n\n\nconst mo = new MovingObject({\n  pos: [30, 30],\n  vel: [10, 10],\n  radius: 5,\n  color: \"#00FF00\"\n});\n\nmodule.exports = MovingObject;\n\n\n\n//# sourceURL=webpack://w9d1/./src/moving_object.js?");
 
 /***/ })
 
